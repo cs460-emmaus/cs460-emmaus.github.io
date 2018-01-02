@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <script>
+// global variable
+nclicks = 0;
 function btn1Click() {
   var b = document.getElementById("btn1");
-  b.innerHTML = "Thanks for clicking!";
+  b.innerHTML = "Thanks for clicking! " + ++nclicks;
   }
 </script>
   
